@@ -53,7 +53,7 @@ function SidenavCard({ color, ...rest }) {
             star
           </Icon>
         </VuiBox>
-        <VuiBox lineHeight={1}>
+        {/* <VuiBox lineHeight={1}>
           <VuiTypography variant="h6" color="white">
             Need help?
           </VuiTypography>
@@ -88,7 +88,7 @@ function SidenavCard({ color, ...rest }) {
           >
             DOCUMENTATION
           </VuiButton>
-        </VuiBox>
+        </VuiBox> */}
       </CardContent>
     </Card>
   );

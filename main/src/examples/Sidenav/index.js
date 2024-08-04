@@ -98,7 +98,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
         >
           <SidenavCollapse
             color={color}
-            name={name}
+             name={name}
             icon={icon}
             active={key === collapseName}
             noCollapse={noCollapse}
@@ -141,7 +141,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
   });
 
   return (
-    <SidenavRoot {...rest} variant="permanent" ownerState={{ transparentSidenav, miniSidenav }}>
+    <SidenavRoot {...rest} variant="permanent" ownerState={{ transparentSidenav, miniSidenav }} sx>
       <VuiBox
         pt={3.5}
         pb={0.5}
@@ -225,8 +225,8 @@ function Sidenav({ color, brandName, routes, ...rest }) {
           },
         })}
       >
-        <SidenavCard color={color} />
-        <VuiBox mt={2}>
+        {/* <SidenavCard color={color} /> */}
+        {/* <VuiBox mt={2}>
           <VuiButton
             component="a"
             href="https://creative-tim.com/product/vision-ui-dashboard-pro-react"
@@ -238,7 +238,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
           >
             Upgrade to PRO
           </VuiButton>
-        </VuiBox>
+        </VuiBox> */}
       </VuiBox>
     </SidenavRoot>
   );

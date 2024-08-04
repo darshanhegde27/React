@@ -89,7 +89,7 @@ function ReferralTracking() {
 								145 people
 							</VuiTypography>
 						</VuiBox>
-						<VuiBox
+						{/* <VuiBox
 							display='flex'
 							width='220px'
 							p='20px 22px'
@@ -104,14 +104,14 @@ function ReferralTracking() {
 									minWidth: '180px',
 									maxWidth: '100% !important'
 								}
-							})}>
-							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
+							})}> */}
+							{/* <VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
 								Bonus
 							</VuiTypography>
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
 								1,465
-							</VuiTypography>
-						</VuiBox>
+							</VuiTypography> */}
+						{/* </VuiBox> */}
 					</Stack>
 					<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
 						<CircularProgress

@@ -103,10 +103,10 @@ function Configurator() {
       >
         <VuiBox>
           <VuiTypography color="white" variant="h5" fontWeight="bold">
-            Vision UI Configurator
+             UI Configurator
           </VuiTypography>
           <VuiTypography variant="body2" color="white" fontWeight="bold">
-            See our dashboard options.
+           Dashboard options.
           </VuiTypography>
         </VuiBox>
 
@@ -216,7 +216,7 @@ function Configurator() {
 
         <Divider light />
 
-        <VuiBox mt={3} mb={2}>
+        {/* <VuiBox mt={3} mb={2}>
           <VuiBox mb={2}>
             <VuiButton
               component={Link}
@@ -241,8 +241,8 @@ function Configurator() {
           >
             VIEW DOCUMENTATION
           </VuiButton>
-        </VuiBox>
-        <VuiBox display="flex" justifyContent="center">
+        </VuiBox> */}
+        {/* <VuiBox display="flex" justifyContent="center">
           <GitHubButton
             href="https://github.com/creativetimofficial/vision-ui-dashboard-react"
             data-icon="octicon-star"
@@ -252,8 +252,8 @@ function Configurator() {
           >
             Star
           </GitHubButton>
-        </VuiBox>
-        <VuiBox mt={3} textAlign="center">
+        </VuiBox> */}
+        {/* <VuiBox mt={3} textAlign="center">
           <VuiBox mb={0.5}>
             <VuiTypography variant="h6" color="white">
               Thank you for sharing!
@@ -284,7 +284,7 @@ function Configurator() {
               &nbsp; Share
             </VuiButton>
           </VuiBox>
-        </VuiBox>
+        </VuiBox> */}
       </VuiBox>
     </ConfiguratorRoot>
   );

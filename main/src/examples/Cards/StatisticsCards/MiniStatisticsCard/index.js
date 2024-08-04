@@ -29,7 +29,7 @@ import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import colors from "assets/theme/base/colors";
 
-function MiniStatisticsCard({ bgColor, title, count, percentage, icon, direction }) {
+function MiniStatisticsCard({ bgColor, title, count, percentage, icon, direction,children }) {
   const { info } = colors;
 
   return (
@@ -40,7 +40,7 @@ function MiniStatisticsCard({ bgColor, title, count, percentage, icon, direction
             {direction === "left" ? (
               <Grid item>
                 <VuiBox
-                  bgColor={info}
+                  bgColor="#0075FF"
                   color="#fff"
                   width="3rem"
                   height="3rem"
@@ -93,6 +93,8 @@ function MiniStatisticsCard({ bgColor, title, count, percentage, icon, direction
                 </VuiBox>
               </Grid>
             ) : null}
+
+            {children&&children}
           </Grid>
         </VuiBox>
       </VuiBox>
